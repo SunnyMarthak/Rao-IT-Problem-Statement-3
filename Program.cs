@@ -12,7 +12,7 @@ void get_max_profit(List<int> liPrices)
         }
         liOutputs.Sort((Compare1, Compare2) => Compare2.CompareTo(Compare1));
         int Max = liOutputs.First();
-        int MinuteNeedToAdd = liPrices.IndexOf(Max + liPrices[i]);
+        int MinuteNeedToAdd = liPrices.FindIndex(i, Data => Data == (Max + liPrices[i]));
         KeyValuePair<string, int> kvpPrice = new KeyValuePair<string, int>(MinuteNeedToAdd.ToString(), Max);
         dctKeyValuePairs.Add(kvpPrice);
     }
