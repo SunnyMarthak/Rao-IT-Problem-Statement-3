@@ -99,6 +99,5 @@
 [1358,11.40]
 [1459,2.30]
 
-E:\Rao IT Competition\Algorithm3\bin\Debug\net6.0\Algorithm3.exe (process 17688) exited with code 0.
-To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+E:\Rao-IT-Coding-Competition\Algorithm3\bin\Debug\net6.0\Algorithm3.exe (process 9536) exited with code 0.
 Press any key to close this window . . .
